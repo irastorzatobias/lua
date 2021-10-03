@@ -1,0 +1,10 @@
+-- Funcion menu que va a tener combos por defecto
+-- Funcion agg combo, agrega un combo al menu, recibe como parametro un numero, un guion y el combo a elegir com
+-- Array de diccionario que seria: 
+                            {combo: combo 1 
+                            costo: 200
+                            }
+-- En lo posible hacer 3 diccionarios, 1 de combos, 1 de solo hamburguesas  y 1 de solo bebidas, promociones.
+-- Parte de ventas.
+-- Upgradear combos.
+
