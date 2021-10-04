@@ -26,7 +26,7 @@ end
 
 
 
-local function printCombos(tabl)
+local function printSingleCombo(tabl)
     for i,v in ipairs(tabl) do
       for key,combo in pairs(v) do
           print(i..' - '..key..' - $'..combo)
@@ -226,10 +226,9 @@ function main()
             val = true
         end
         end
-    end
-    print('Salio del programa')
+end
 
-
+print('Salio del programa')
 main()
 
 
