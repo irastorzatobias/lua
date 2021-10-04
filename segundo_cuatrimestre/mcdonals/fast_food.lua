@@ -1,4 +1,5 @@
 -- FAST FOOD APP 
+require 'funciones'
 local function printMenu()
     local menu = {}
     menu[1] = 'Generar venta'
