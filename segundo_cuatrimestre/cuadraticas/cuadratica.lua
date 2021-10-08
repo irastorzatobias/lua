@@ -33,13 +33,23 @@ function resolveCuadratica()
         x1 = ((-b) + (math.sqrt(resDiscriminante))) / (2 * a)
         xv = (-b) / (2 * a)
         yv = a*(xv^2) + b * xv + c 
-        print('X1: '..x1..'\nXV: '..xv..'\nYV: '..yv)
+        print('X1: '..x1..'\nXV: '..xv..'\nYV: '..yv..'\nCorte con Y: '..c)
+        if (a > 0) then
+            print('Creciente')
+        else
+            print('Decreciente')
+        end
     elseif cDiscriminante == 2 then
         x1 = ((-b) + (math.sqrt(resDiscriminante))) / (2 * a) 
         x2 = ((-b) - (math.sqrt(resDiscriminante))) / (2 * a)
         xv = (-b) / (2 * a)
         yv = a*(xv^2) + b * xv + c
-        print('X1: '..x1,'X2: '..x2..'\nXV: '..xv..'\nYV: '..yv)
+        if (a > 0) then
+            print('Creciente')
+        else
+            print('Decreciente')
+        end
+        print('X1: '..x1,'X2: '..x2..'\nXV: '..xv..'\nYV: '..yv..'\nCorte con Y: '..c)
     else
         print('No tiene solucion en los reales')
     end
