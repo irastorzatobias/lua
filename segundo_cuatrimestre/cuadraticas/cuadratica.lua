@@ -40,6 +40,7 @@ function resolveCuadratica()
             print('Decreciente')
         end
     elseif cDiscriminante == 2 then
+        print(resDiscriminante)
         x1 = ((-b) + (math.sqrt(resDiscriminante))) / (2 * a) 
         x2 = ((-b) - (math.sqrt(resDiscriminante))) / (2 * a)
         xv = (-b) / (2 * a)
